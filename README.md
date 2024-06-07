@@ -1,3 +1,6 @@
+## Video de ensayo:
+https://youtu.be/WDzYs4B70vE
+
 # Sistema de Gestión de Inventario
 
 Este proyecto es una implementación de un sistema de inventario utilizando la estructura de una lista enlazada en el lenguaje de programación Java. El sistema permite agregar, buscar, actualizar la cantidad y eliminar productos del inventario, así como mostrar el inventario completo.

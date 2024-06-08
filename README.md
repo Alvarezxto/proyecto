@@ -45,4 +45,22 @@ El programa ofrece las siguientes funcionalidades:
 2. **Buscar Producto**:
    - La función `findProduct` busca un producto en el inventario por su ID y devuelve el producto si se encuentra. Si no, devuelve `null`.
 
-3. **Actualizar
+3. **Actualizar Cantidad**:
+   - La función `updateQuantity` permite actualizar la cantidad de un producto específico en el inventario usando su ID. Si el producto es encontrado, se actualiza su cantidad y la función devuelve `true`. Si no, devuelve `false`.
+
+4. **Eliminar Producto**:
+   - La función `removeProduct` elimina un producto del inventario utilizando su ID. Si el producto es encontrado y eliminado, la función devuelve `true`. Si no, devuelve `false`.
+
+5. **Mostrar Inventario**:
+   - La función `displayInventory` muestra todos los productos presentes en el inventario, imprimiendo sus detalles (ID, nombre, descripción, precio y cantidad).
+
+## Ejemplo de Uso
+
+El programa en el método `main` realiza las siguientes acciones:
+1. Crea un inventario y agrega varios productos.
+2. Muestra el inventario inicial.
+3. Busca un producto específico y muestra su información.
+4. Actualiza la cantidad de un producto.
+5. Muestra el inventario después de la actualización.
+6. Elimina un producto del inventario.
+7. Muestra el inventario final después de la eliminación.
